@@ -1,7 +1,7 @@
 f/stats - Public Website
 ========================
 
-[Flickr](http://flickr.com) stats for iPhone
+[flickr](http://flickr.com) stats for iPhone
 
 -----------------------------------------------------------------------------
 
