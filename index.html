@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>f/stats : flickr stats for iPhone</title>
+    <meta name="description" content="f/stats">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- <meta name="apple-itunes-app" content="app-id=520536757" /> -->
+
+    <script type="text/javascript" src="//use.typekit.net/qfd2hit.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <style type="text/css" media="screen">
+      body { background-color:#333;color:#CCC; }
+      .hero-image {
+/*
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+*/
+      }
+
+      #feature-image {
+        position:relative;
+        min-height:400px;
+        background: url(img/bg4.jpg) no-repeat top center fixed #444;
+      }
+      h1, h2, h3, h4 { color:#FFF; }
+      #carrot { width:25px; height:25px; position:absolute; bottom:0; left:49%; }
+      #app-store { width:200px; }
+      footer { color:#666; }
+      footer a { color:#999; }
+
+      .hero-unit { background:none;background-color:none;margin:0; }
+      .hero-unit h1, .hero-unit h2, .hero-unit h3 { display:block; width:100%; text-align:center; }
+      .hero-unit h1 { position:relative; top:80px;left:0; color:#FFF; text-align:center; }
+      .hero-unit h3 { position:relative; top:68px;left:0; color:#FFF; text-align:center; }
+      .tag-row {  height:90px;
+                  padding-top:25px;
+                  margin:0 0 20px 0;
+                  border-top:1px solid #000;
+                  border-bottom:1px solid #ff2683;
+                  background-color:#222;
+                  position:relative; }
+      .tag-row h2 { text-align:center;color:#BBB; }
+      .app-sample { margin:0 auto; border:1px solid #666; }
+      .pink { color:#ff2683; }
+      .blue { color:#77c3ec; }
+      .yellow { color:#FFC; }
+      .white { color:#FFF; }
+      .shadowed { text-shadow: 0.2px 0.2px 1px #222; }
+      .huge-text { font-size:3.0em; }
+      .text-center { text-align:center; }
+      .text-left { text-align:left; }
+      .text-right { text-align:right; }
+      .shifted { position:relative; top:0.4em;}
+      .shift-down { line-height:40px;}
+      .required { background-color:#444;border:1px solid #555; }
+      .features dt, .features dd { line-height:40px;font-size:1.2em; }
+      .features dt { width:10%; }
+      .features dd { margin-left:12%;width:88%; }
+      .features a { text-decoration:none; color:#CCC; }
+      .features a:hover { color:#ff2683; }
+      .flat-link { color:#CCC; }
+      .flat-link:hover { color:#ff2683;text-decoration:none; }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+        <!-- ---------------------HEADER -------------------- -->
+      <div id="feature-image" class="hero-unit">
+        <h1 class="tk-museo-slab shadowed">
+          <span class="blue">f</span><span class="pink">/</span><span class="blue">stats</span>
+        </h1>
+        <h3>
+          flickr stats for iPhone
+        </h3>
+      </div>
+
+        <!-- ---------------------TAG -------------------- -->
+      <div class="tag-row">
+        <h2>Access to your <span class="white">flickr</span> stats while on the go.</h2>
+        <img src="img/carrot.png" id="carrot">
+      </div>
+
+      <div class="container">
+        <!-- ---------------------APP STORE -------------------- -->
+        <div class="row">
+          <div class="span4 offset4">
+            <br>
+            <p class="text-center">
+              <a href="http://itunes.apple.com/us/app/f-stats/id360692773?mt=8" title="Purchase f/stats on the App Store">
+                <img src="img/app_store.svg" id="app-store"/>
+              </a>
+            </p>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- ---------------------FEATURES -------------------- -->
+        <div class="row">
+          <div class="span6 offset3 features">
+            <h3>Features</h3>
+
+            <dl class="dl-horizontal">
+              <dt>
+                <a href="#day-view"><i class="icon-calendar"></i></a>
+              </dt>
+              <dd>
+                <a href="#day-view">
+                  View stats for the last 30 days and an all-time view
+                </a>
+              </dd>
+
+              <dt>
+                <a href="#graph-view"><i class="icon-signal"></i></a>
+              </dt>
+              <dd>
+                <a href="#graph-view">
+                  <span class="yellow">NEW</span> Graph view shows daily trends
+                </a>
+              </dd>
+
+              <dt>
+                <a href="#detail-view"><i class="icon-zoom-in"></i></a>
+              </dt>
+              <dd>
+                <a href="#detail-view">
+                  Take a closer look with the detail view
+                </a>
+              </dd>
+            </dl>
+
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- ---------------------PRO REQUIRED -------------------- -->
+        <div class="row">
+          <div class="span4 offset4">
+            <p class="required well text-center">
+              <span class="pink"><i class="icon-asterisk"></i></span> <b class="white">flickr</b> pro account required
+            </p>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- ---------------------SAMPLES -------------------- -->
+        <div class="row">
+          <div class="span3 offset3">
+            <div class="app-sample">
+              <img src="img/sample1.jpg" id="sample1">
+            </div>
+          </div>
+          <div class="span3">
+            <a name="day-view"></a>
+            <h3 class="text-left">Day View</h3>
+            <p class="text-left">
+              A quick look into which photos are gaining attention.
+              Total view, favorite, and comment counts available for each photo.
+              Access to more detailed information, including referring domains,
+              is just a tap away.
+            </p>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="span3 offset3">
+            <a name="graph-view"></a>
+            <h3 class="text-right">Graph View</h3>
+            <p class="text-right">
+              <span class="yellow">
+                <i class="icon-star"></i>
+                <b>NEW</b>
+                <i class="icon-star"></i>
+              </span>
+              <br>
+              Introducing graph view, available when the device is rotated to
+              landscape orientation. Graph view allows you to see trends
+              in daily total views. Slide or tap a day in the graph to see the
+              total views.
+            </p>
+          </div>
+          <div class="span3">
+            <div class="app-sample">
+              <img src="img/sample2.jpg" id="sample2">
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="span3 offset3">
+            <div class="app-sample">
+              <img src="img/sample3.jpg" id="sample3">
+            </div>
+          </div>
+          <div class="span3">
+            <a name="detail-view"></a>
+            <h3 class="text-left">Detail View</h3>
+            <p class="text-left">
+              See more detailed information for a photo, such as:
+              <br>
+              <ul class="unstyled">
+                <li>
+                  <i class="icon-globe"></i> &nbsp; Referring domains
+                </li>
+                <li>
+                  <i class="icon-heart"></i> &nbsp; Favorite counts
+                </li>
+                <li>
+                  <i class="icon-comment"></i> &nbsp; Comment counts
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- ---------------------ABOUT -------------------- -->
+        <div class="row">
+          <div class="span6 offset3">
+            <p class="text-center">
+              <b>f/stats</b> was created by long-time
+              <a href="http://flickr.com" class="pink" title="flickr.com">flickr</a> fan,
+              <a href="http://flickr.com/veader">Shawn Veader</a>
+              <a href="http://twitter.com/veader" class="flat-link" title="follow veader on twitter"><i class="icon-twitter"></i></a>
+              <a href="http://veader.org" class="flat-link"><i class="icon-globe"></i></a>
+            </p>
+          </div>
+        </div>
+        <br>
+
+        <!-- ---------------------FOOTER -------------------- -->
+        <footer>
+          <p class="text-center">
+            &copy; 2010-2013 All Rights Reserved &raquo;
+            <a href="http://v8logic.com">V8 Logic</a>
+            &nbsp;
+
+            <a href="http://twitter.com/fstatsapp" class="flat-link" title="follow fstatsapp on twitter">
+              <i class="icon-twitter"></i>
+              @fstatsapp
+            </a>
+          </p>
+        </footer>
+      </div>
+
+      <!-- app store row -->
+      <!-- about -->
+      <!-- footer -->
+
+      <br>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      var is_retina = window.devicePixelRatio > 1 ? true : false;
+      var reset_timer = null;
+      $(window).load(function() {
+        $("#carrot").attr("src", full_png_img_path("carrot"));
+        $("#sample1").attr("src", full_jpg_img_path("sample1"));
+        $("#sample2").attr("src", full_jpg_img_path("sample2"));
+        $("#sample3").attr("src", full_jpg_img_path("sample3"));
+      });
+      function full_jpg_img_path(root_path) {
+        // root_path should be without img/ and .jpg
+        var img_path = "img/" + root_path;
+        if (is_retina) { img_path += "@2x"; }
+        img_path += ".jpg";
+        return img_path;
+      }
+      function full_png_img_path(root_path) {
+        // root_path should be without img/ and .png
+        var img_path = "img/" + root_path;
+        if (is_retina) { img_path += "@2x"; }
+        img_path += ".png";
+        return img_path;
+      }
+    </script>
+  </body>
+</html>
