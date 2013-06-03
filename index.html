@@ -37,7 +37,7 @@
                   background-color:#222;
                   position:relative; }
       .tag-row h2 { text-align:center; color:#BBB; }
-      .app-sample img { margin:0 auto; border:1px solid #666; }
+      .app-sample img { margin:0 auto; display:block; border:1px solid #666; }
       .pink { color:#ff2683; }
       .blue { color:#77c3ec; }
       .yellow { color:#FFC; }
@@ -47,9 +47,8 @@
       .text-left { text-align:left; }
       .text-right { text-align:right; }
       .required { background-color:#444; border:1px solid #555; }
-      .features dt, .features dd { line-height:40px; font-size:1.2em; }
-      .features dt { width:10%; }
-      .features dd { margin-left:12%; width:88%; }
+      .features ul { margin-left:2%; }
+      .features li { line-height:40px; font-size:1.2em; }
       .features a { text-decoration:none; color:#CCC; }
       .features a:hover { color:#ff2683; }
       .flat-link { color:#CCC; }
@@ -70,7 +69,7 @@
 
         <!-- ---------------------TAG -------------------- -->
       <div class="tag-row">
-        <h2>Access to your <span class="white">flickr</span> stats while on the go.</h2>
+        <h2>Access to your <span class="white">flickr</span> stats on the go</h2>
         <img src="img/carrot.png" id="carrot">
       </div>
 
@@ -94,35 +93,29 @@
           <div class="span6 offset3 features">
             <h3 class="tk-museo-slab">Features</h3>
 
-            <dl class="dl-horizontal">
-              <dt>
-                <a href="#day-view"><i class="icon-calendar"></i></a>
-              </dt>
-              <dd>
+            <ul class="unstyled">
+              <li>
                 <a href="#day-view">
+                  <i class="icon-calendar"></i>
+                  &nbsp;
                   View stats for the last 30 days and an all-time view
                 </a>
-              </dd>
-
-              <dt>
-                <a href="#graph-view"><i class="icon-signal"></i></a>
-              </dt>
-              <dd>
+              </li>
+              <li>
                 <a href="#graph-view">
+                  <i class="icon-signal"></i>
+                  &nbsp;
                   <span class="yellow">NEW</span> Graph view shows daily trends
                 </a>
-              </dd>
-
-              <dt>
-                <a href="#detail-view"><i class="icon-zoom-in"></i></a>
-              </dt>
-              <dd>
+              </li>
+              <li>
                 <a href="#detail-view">
+                  <i class="icon-zoom-in"></i>
+                  &nbsp;
                   Take a closer look with the detail view
                 </a>
-              </dd>
-            </dl>
-
+              </li>
+            </ul>
           </div>
         </div>
         <br>
